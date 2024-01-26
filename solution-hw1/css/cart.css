@@ -82,6 +82,13 @@ a:hover {
     text-align:center;
 }
 
+.info-cinnamon a{
+    font-weight: bold;
+}
+
+.info-choco a{
+    font-weight: bold;
+}
 
 .checkout{
     margin-top: 100px;
