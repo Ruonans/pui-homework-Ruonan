@@ -1,0 +1,206 @@
+
+img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+  }
+
+#logo {
+    border: 0px;
+    width: 400px;
+    margin: 0px;
+}
+
+hr {
+    display: block;
+    border: 2px solid black;
+}
+
+.products {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-size: 25px;
+    font-family:'Trebuchet MS';
+
+}
+
+#heading-p {
+    padding: 5px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.customize {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---------------------------------------------------------------------------- */
+/*-----------------------------------Navigation------------------------------- */
+/*---------------------------------------------------------------------------- */
+
+.nav{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover { 
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.nav a{
+    color: black;
+    text-decoration:none;
+}
+/*---------------------------------------------------------------------------- */
+/*--------------------Dropdown Button of Gazing------------------------------- */
+/*---------------------------------------------------------------------------- */
+
+
+.button-g {
+    background-color:rgb(248, 240, 205);
+    color: black;
+    width: 350px;
+    border: 2px solid rgb(241, 196, 17);
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.arrow-g{
+    float: right;
+}
+
+  
+.dropdown-g {
+    position: relative;
+    display: inline-block;
+}
+  
+.choice-g {
+    display: none;
+    position: absolute;
+    background-color:rgb(248, 239, 213);
+    width: 100%;
+    z-index: 1;
+}
+
+.choice-g a {
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-g:hover .button-g {
+    background-color: rgb(251, 223, 145);
+}
+
+  
+.choice-g a:hover {
+    background-color: rgb(251, 223, 145);
+}
+  
+.dropdown-g:hover .choice-g {
+    display: block;
+}
+  
+
+
+
+/*---------------------------------------------------------------------------- */
+/*--------------------Dropdown Button of Packs-------------------------------- */
+/*---------------------------------------------------------------------------- */
+.button-p {
+    background-color:rgb(248, 240, 205);
+    color: black;
+    width: 350px;
+    border: 2px solid rgb(241, 196, 17);
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.arrow-p{
+    float: right;
+}
+  
+.dropdown-p {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-p:hover .button-p {
+    background-color: rgb(251, 223, 145);
+}
+  
+.choice-p {
+    display: none;
+    position: absolute;
+    background-color:rgb(248, 239, 213);
+    width: 100%;
+    z-index: 1;
+}
+
+.choice-p a {
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.choice-p a:hover {
+    background-color: rgb(251, 223, 145);
+}
+  
+.dropdown-p:hover .choice-p {
+    display: block;
+}
+  
+
+
+
+
+/*---------------------------------------------------------------------------- */
+/*-------------------------------- ADD To CART-------------------------------- */
+/*---------------------------------------------------------------------------- */
+
+
+.add{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+}
+
+
+.button-a{
+    background-color:rgb(248, 240, 205);
+    color: black;
+    width: 200px;
+    border: 2px solid rgb(241, 196, 17);
+    padding: 20px;
+    font-size: 25px;
+    float: right;
+}
+
+.button-a:hover {
+    background-color: rgb(241, 196, 17);
+    font-weight: bold;
+}
