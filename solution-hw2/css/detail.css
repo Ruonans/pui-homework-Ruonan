@@ -1,0 +1,239 @@
+/*********************************** General ***********************************/
+
+a{
+    color: black;
+}
+
+a:hover { 
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/******************************** Header layout*********************************/
+
+.header{
+    display: flex;
+    flex-direction:row;
+}
+.right{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.content{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align:left;
+}
+
+#logo {
+    border: 0px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+hr {
+    flex:1;
+    border: 2px solid black;
+}
+
+
+/****************************** Navigation *************************************/
+.nav{
+    display: flex;
+    flex-direction:row;
+    padding: 50px;
+    justify-content:flex-end;
+    font-size: 30px;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration:none;
+}
+
+.cart{
+    position:relative;
+    display:inline-block;
+}
+.badge {
+    font-size: 20px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 50%;
+    top: -10px;
+    right: -12px;
+}
+
+/************************************ Body *************************************/
+
+body {
+    font-size: 25px;
+    font-family:'Helvetica';
+}
+
+.products {
+    width: 1200px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+}
+
+.products img {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+  }
+
+
+/********************************* Customize ***********************************/
+
+.customize {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+/*-----------------------Dropdown Button of Gazing---------------------------- */
+
+.button-g {
+    margin-top:20px;
+    background-color:white;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.arrow-g{
+    float: right;
+}
+
+  
+.dropdown-g {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+  
+.choice-g {
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 100%;
+    z-index: 1;
+}
+
+.choice-g a {
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-g:hover .button-g {
+    background-color: rgb(240, 239, 238);
+}
+
+  
+.choice-g a:hover {
+    background-color: rgb(240, 239, 238);
+}
+  
+.dropdown-g:hover .choice-g {
+    display: block;
+}
+  
+/*--------------------Dropdown Button of Packs-------------------------------- */
+
+.button-p {
+    margin-top:20px;
+    background-color:white;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.arrow-p{
+    float: right;
+}
+  
+.dropdown-p {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.dropdown-p:hover .button-p {
+    background-color: rgb(240, 239, 238);
+}
+  
+.choice-p {
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 100%;
+    z-index: 1;
+}
+
+.choice-p a {
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.choice-p a:hover {
+    background-color: rgb(240, 239, 238);
+}
+  
+.dropdown-p:hover .choice-p {
+    display: block;
+}
+
+
+
+/*-------------------------------- ADD To CART-------------------------------- */
+
+
+.add{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+}
+
+
+.button-a{
+    background-color:yellow;
+    color: black;
+    width: 200px;
+    border: 1px solid black;
+    padding: 14px;
+    font-size: 25px;
+    float: right;
+}
+
+.button-a:hover {
+    font-weight: bold;
+}

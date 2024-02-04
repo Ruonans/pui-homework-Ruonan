@@ -1,0 +1,153 @@
+/*********************************** General ***********************************/
+
+a{
+    color: black;
+}
+
+a:hover { 
+    background-color: yellow;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-size: 25px;
+    font-family:'Helvetica';
+
+}
+/******************************** Header layout*********************************/
+
+.header{
+    display: flex;
+    flex-direction:row;
+}
+.right{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.content{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align:left;
+}
+
+#logo {
+    border: 0px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+hr {
+    flex:1;
+    border: 2px solid black;
+}
+
+
+/****************************** Navigation *************************************/
+.nav{
+    display: flex;
+    flex-direction:row;
+    padding: 50px;
+    justify-content:flex-end;
+    font-size: 30px;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration:none;
+}
+
+.cart{
+    position:relative;
+    display:inline-block;
+}
+.badge {
+    font-size: 20px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 50%;
+    top: -10px;
+    right: -12px;
+}
+
+/******************************** Products *************************************/
+
+.products {
+    margin-top:8%;
+    width:70%;
+    display: flex;
+    flex-direction:column;
+    float:inline-end;
+    margin-bottom:10%;
+}
+
+.p1,.p2{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+.info-cinnamon, .info-choco{
+    margin-left:5%;
+    flex:1.5;
+}
+
+.price1,.price2, .bottom, .button-check{
+    text-align:end;
+    margin-right:12%;
+}
+
+/******************************** Bottom** *************************************/
+
+
+
+.bottom hr{
+    border: 3px solid black; 
+}
+
+
+.checkout{
+    width: 70%;
+    float:inline-end;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.total{
+    text-align:left;
+}
+
+
+.button-check button{
+    background-color:yellow;
+    color: black;
+    width: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 25px;
+    float:inline-end;
+    
+}
+
+.button-check button:hover {
+    background-color: rgb(241, 196, 17);
+    font-weight: bold;
+}
+
+
+
