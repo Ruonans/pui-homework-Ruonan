@@ -82,6 +82,10 @@ hr {
     top: -10px;
     right: -12px;
 }
+.cart a{
+    background-color: yellow;
+    font-weight: bold;
+}
 
 /******************************** Products *************************************/
 

@@ -59,6 +59,11 @@ hr {
     text-decoration:none;
 }
 
+.curPage a{
+    background-color: yellow;
+    font-weight: bold;
+}
+
 .cart{
     position:relative;
     display:inline-block;
@@ -91,11 +96,18 @@ hr {
 .products div {
     display: flex;
     flex-direction: column;
-    width:285px;
+    width:292px;
+    padding-top:5px;
+    padding-left:3px;
+    margin-bottom:20px;
 }
+
 
 body {
     font-size: 20px;
     font-family:'Helvetica';
 }
 
+.products div div:hover{
+    background-color: yellow;
+}

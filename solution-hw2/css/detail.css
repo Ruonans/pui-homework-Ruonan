@@ -69,6 +69,10 @@ hr {
     right: -12px;
 }
 
+.curPage a{
+    background-color: yellow;
+    font-weight: bold;
+}
 /************************************ Body *************************************/
 
 body {
