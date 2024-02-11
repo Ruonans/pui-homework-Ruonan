@@ -1,0 +1,113 @@
+/*********************************** General ***********************************/
+
+img {
+    width: 285px;
+    height: 285px;
+    border: 2px solid black;
+  }
+
+a{
+    color: black;
+}
+
+a:hover { 
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/******************************** Header layout*********************************/
+
+.header{
+    display: flex;
+    flex-direction:row;
+}
+.right{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.content{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align:left;
+}
+
+#logo {
+    border: 0px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+hr {
+    flex:1;
+    border: 2px solid black;
+}
+
+
+/****************************** Navigation *************************************/
+.nav{
+    display: flex;
+    flex-direction:row;
+    padding: 50px;
+    justify-content:flex-end;
+    font-size: 30px;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration:none;
+}
+
+.curPage a{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.cart{
+    position:relative;
+    display:inline-block;
+}
+.badge {
+    font-size: 20px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 50%;
+    top: -10px;
+    right: -12px;
+}
+
+
+/************************************ Body *************************************/
+
+.products {
+    width: 1200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products div {
+    display: flex;
+    flex-direction: column;
+    width:292px;
+    padding-top:5px;
+    padding-left:3px;
+    margin-bottom:20px;
+}
+
+
+body {
+    font-size: 20px;
+    font-family:'Helvetica';
+}
+
+.products div div:hover{
+    background-color: yellow;
+}

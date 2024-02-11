@@ -1,0 +1,150 @@
+/*********************************** General ***********************************/
+
+a{
+    color: black;
+}
+
+a:hover { 
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/******************************** Header layout*********************************/
+
+.header{
+    display: flex;
+    flex-direction:row;
+}
+.right{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.content{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align:left;
+}
+
+#logo {
+    border: 0px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+hr {
+    flex:1;
+    border: 2px solid black;
+}
+
+
+/****************************** Navigation *************************************/
+.nav{
+    display: flex;
+    flex-direction:row;
+    padding: 50px;
+    justify-content:flex-end;
+    font-size: 30px;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration:none;
+}
+
+.cart{
+    position:relative;
+    display:inline-block;
+}
+.badge {
+    font-size: 20px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 50%;
+    top: -10px;
+    right: -12px;
+}
+
+.curPage a{
+    background-color: yellow;
+    font-weight: bold;
+}
+/************************************ Body *************************************/
+
+body {
+    font-size: 25px;
+    font-family:'Helvetica';
+}
+
+.products {
+    width: 1200px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.products img {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+  }
+
+
+/********************************* Customize ***********************************/
+
+.customize {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+/*---------------------------------- select ---------------------------------- */
+select{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+/*-------------------------------- ADD To CART-------------------------------- */
+
+
+.add{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+.add p{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.button-a{
+    background-color:yellow;
+    color: black;
+    width: 200px;
+    height:50px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-a:hover {
+    font-weight: bold;
+}
