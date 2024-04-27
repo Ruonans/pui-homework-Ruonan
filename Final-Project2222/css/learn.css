@@ -134,16 +134,16 @@ nav ul li a {
 @media screen and (max-width: 980px) {
     .chapter{
         width:200px;
-        height: 300px;
+        height: 250px;
         margin:10%;
         margin-top: 15%;
         border-radius: 2%;
-        box-shadow:5px 3px 5px red;
+        box-shadow:5px 3px 5px #a3928660;
     }
     .learn-modules img{
-        max-width: 100px;
-        max-height: 100px;
-        margin:5%;
+        max-width: 150px;
+        max-height: 150px;
+        margin:2%;
     }
 }
 .modules {
