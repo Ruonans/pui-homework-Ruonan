@@ -59,7 +59,7 @@ header img{
     #welcome-text{
         left: 10%;
         right:10%;
-        top:10%;
+        top:20%;
         font-size: 50px;
     }
     section{
@@ -72,6 +72,9 @@ header img{
     }
     .section-header{
         font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
     }
 }
 

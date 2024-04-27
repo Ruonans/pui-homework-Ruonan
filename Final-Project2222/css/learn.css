@@ -9,7 +9,6 @@ body {
 a{
     text-decoration: none;
     color:black;
-    font-weight:lighter;
 }
 
 a:hover{
@@ -34,6 +33,7 @@ section{
 .subtitle{
     font-weight:bold;
 }
+
 @media screen and (max-width: 980px) {
     section{
         margin:2% 5%;
@@ -45,6 +45,9 @@ section{
     }
     .section-header{
         font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
     }
 }
 /* Header */

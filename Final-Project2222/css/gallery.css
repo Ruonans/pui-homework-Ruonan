@@ -197,6 +197,24 @@ footer {
     .section-header{
         font-size:45px;
     }
+    nav ul li {
+        font-size:27px;
+    }
+    .gallery-author{
+        font-size: 35px;
+    }
+    .gallery-detail-link {
+        width:300px;
+        padding:0% 1%;
+        height:60px;
+        font-size: 30px;
+    }
+    .remove-detail-link{
+        width:300px;
+        padding:0% 1%;
+        height:60px;
+        font-size: 30px;
+    }
 }
 
 
