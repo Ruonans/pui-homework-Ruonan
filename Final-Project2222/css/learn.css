@@ -233,6 +233,7 @@ nav ul li a {
 }
 
 #var-select{
+    color:black;
     font-family: Georgia;
     padding:5px;
     font-size:25px;

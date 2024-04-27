@@ -51,7 +51,7 @@ section{
 
 header img{
     width:100%;
-    height:auto;
+    height:800px;
 }
 
 
@@ -215,26 +215,7 @@ nav ul li a {
     font-size: 20px;
 }
 
-@media screen and (max-width: 980px) {
-    .daily-graph{
-        font-size: 40px;
-    }
-    .author{
-        font-size: 35px;
-    }
-    button{
-        background-color:#E2E5E2;
-        color: rgb(37, 27, 27);
-        width:300px;
-        padding:0% 2%;
-        height:60px;
-        border: 0px;
-        font-size: 30px;
-        font-family: Georgia;
-        margin-right: 10px;
-        border-radius: 5px;
-    }
-}
+
 
 .buttons{
     display: flex;
@@ -254,6 +235,22 @@ button{
     font-family: Georgia;
     margin-right: 10px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 980px) {
+    .daily-graph{
+        font-size: 40px;
+    }
+    .author{
+        font-size: 35px;
+    }
+    button{
+        width:300px;
+        padding:0% 1%;
+        height:60px;
+        font-size: 30px;
+        margin-right: 20px;
+    }
 }
 
 button:hover{
