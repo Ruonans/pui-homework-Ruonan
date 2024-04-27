@@ -22,7 +22,7 @@ a:hover{
 
 section{
     margin:5% 10%;
-    padding:5%;
+    padding:2%;
     padding-bottom:10%;
 }
 
@@ -34,11 +34,17 @@ section{
 .subtitle{
     font-weight:bold;
 }
-
+@media screen and (max-width: 980px) {
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+}
 /* Header */
 
 .intro{
-    display:relative;
+    position:relative;
     text-align: center;
     color: black;
 }
@@ -88,6 +94,13 @@ nav ul li a {
     margin-right:5%;
 }
 
+@media screen and (max-width: 980px) {
+    #intro-text{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+}
 /*section1: Definition*/
 
 .def-note{
@@ -136,8 +149,19 @@ nav ul li a {
     height: auto;
 }
 
+
 .prompt-text{
     margin-left: 5%;
+}
+
+@media screen and (max-width: 980px) {
+    .prompt img{
+        max-width: 100%;
+        height: auto;
+    }
+    .prompt-text{
+        font-size:20px;
+    }
 }
 /* Section3: Variables*/
 
@@ -223,6 +247,12 @@ nav ul li a {
     background-color:#b4d0bc48;
     line-height: 1.5;
     padding:20px;
+}
+
+@media screen and (max-width: 980px) {
+    #information {
+        font-size: 20px;
+    }
 }
 
 /* Section4: Quiz*/
@@ -315,6 +345,5 @@ footer {
     text-align: center;
     font-size:10px;
 }
-
 
 
