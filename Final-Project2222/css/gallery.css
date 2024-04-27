@@ -141,6 +141,7 @@ nav ul li a {
     font-family: Georgia;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .gallery-detail-link:hover {
@@ -159,6 +160,7 @@ nav ul li a {
     font-size: 17px;
     font-family: Georgia;
     margin-right: 10px;
+    border-radius: 5px;
 }
 
 .remove-detail-link:hover {
@@ -204,22 +206,12 @@ footer {
         font-size: 35px;
     }
     .gallery-detail-link {
-        width:300px;
-        padding:0% 1%;
-        height:60px;
         font-size: 30px;
     }
     .remove-detail-link{
-        width:300px;
-        padding:0% 1%;
-        height:60px;
         font-size: 30px;
     }
 }
-
-
-
-
 
 
 
