@@ -40,6 +40,12 @@ section{
         padding:2%;
         padding-bottom:5%;
     }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
 }
 /* Header */
 
@@ -50,8 +56,8 @@ section{
 }
 #intro-text{
     position: absolute;
-    top: 15%;
-    left: 7%;
+    top: 1%;
+    left: 5%;
     font-size: 100px;
     color: black;
     text-align:left;
@@ -93,14 +99,20 @@ nav ul li a {
     float:inline-end;
     margin-right:5%;
 }
-
 @media screen and (max-width: 980px) {
     #intro-text{
         position: absolute;
-        top: 5%;
+        top: 1%;
         left: 5%;
     }
+    nav ul li {
+        font-size:35px;
+    }
+    #name{
+        font-size: 65px;
+    }
 }
+
 /*section1: Definition*/
 
 .def-note{
@@ -114,9 +126,10 @@ nav ul li a {
 
 .def-content p,div{
     display:block;
-    font-size: 25px;
     line-height: 1.5;
 }
+
+
 .underline{
     text-decoration:underline;
 }
@@ -180,6 +193,7 @@ nav ul li a {
 
 .tag{
     font-family: Georgia;
+    color:black;
     margin-right:3%;
     font-size: 25px;
     background-color:#b4d0bc48;
@@ -189,6 +203,13 @@ nav ul li a {
     border:0ch;
     border-radius: 10px;
     transition: background-color 0.3s, border-color 0.3s; 
+}
+
+@media screen and (max-width: 980px){
+    .tag{
+        font-size: 30px;
+        margin-right:1%;
+    }
 }
 
 #hidden-def {
@@ -250,6 +271,9 @@ nav ul li a {
 }
 
 @media screen and (max-width: 980px) {
+    #var-select{
+        font-size:35px;
+    }
     #information {
         font-size: 20px;
     }
@@ -266,6 +290,13 @@ nav ul li a {
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin-right:2%;
+}
+
+@media screen and (max-width: 980px) {
+    .quizCard{
+        height: 400px;
+    }
 }
 
 .quizCard-inner{
@@ -332,6 +363,12 @@ nav ul li a {
     border:0px;
     padding: 6px 10px;
     border-radius: 4px;
+}
+
+@media screen and (max-width: 980px) {
+    .other-chap button{
+        font-size:35px;
+    }
 }
 .other-chap button:hover{
     background-color: #c4decb;
