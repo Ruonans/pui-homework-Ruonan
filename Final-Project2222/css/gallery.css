@@ -211,6 +211,9 @@ footer {
     .remove-detail-link{
         font-size: 30px;
     }
+    header img{
+        height: 600px;
+    }
 }
 
 footer {

@@ -76,6 +76,9 @@ header img{
     nav ul li {
         font-size:27px;
     }
+    header img{
+        height: 600px;
+    }
 }
 
 
