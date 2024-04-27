@@ -1,3 +1,31 @@
+const Chapters= {
+    "Chapter1": {
+        chapNumber: "CHAP1",
+        chapName:"BAR CHART"
+    },
+    "Chapter2": {
+        chapNumber: "CHAP2",
+        chapName:"HISTOGRAM"
+    },
+    "Chapter3": {
+        chapNumber: "CHAP3",
+        chapName:"LINE CHART"
+    },
+    "Chapter4": {
+        chapNumber: "CHAP4",
+        chapName:"PIE CHART"
+    },
+    "Chapter5": {
+        chapNumber: "CHAP5",
+        chapName:"SCATTER PLOT"
+    },
+};
+
+
+
+
+
+
 const var_def = {
     "company_location" : "Manufacturer region",
     "specific_bean_origin_or_bar_name": "Specific bean or bar name",
@@ -82,6 +110,29 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+//search params
+const queryString = window.location.search;
+
+// create params object:
+const params = new URLSearchParams(queryString);
+
+// access params
+const chosenChap = params.get('chap');
+console.log(chosenChap);
+const chapDetail = Chapters[chosenChap].chapNumber;
+console.log(chapDetail);
+const chartDetail = Chapters[chosenChap].chapName;
 
 
+
+const targetChap = document.querySelector("#chap-detail");
+console.log(targetChap);
+targetChap.textContent = chapDetail;
+const targetChart = document.querySelector('#chart-detail');
+targetChart.innerText = chartDetail;
+
+
+// Update the image
+const chartImage = document.querySelector('#chart-img');
+chartImage.src = 'assets/' + chapDetail + '.jpg';
 

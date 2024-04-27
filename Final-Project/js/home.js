@@ -7,7 +7,7 @@ const Graphs = {
     },
     "Flow Map of Napoleon's Invasion of Russia": {
         imgSrc: "Daily/Daily-2.jpg",
-        altText: "A Flow Map of Napoleon’s Invasion of Russia",
+        altText: "A Flow Map of Napoleon's Invasion of Russia",
         detailLink: "https://ageofrevolution.org/200-object/flow-map-of-napoleons-invasion-of-russia/",
         author: "Charles Joseph Minard"
     },
@@ -66,7 +66,7 @@ window.onload = function() {
 
 };
 
-
+// ADD TO GALLERY
 function addToGallery() {
     var currentIndex = parseInt(localStorage.getItem('lastGraphIndex'), 10);
     var graphKeys = Object.keys(Graphs);
@@ -87,7 +87,7 @@ function addToGallery() {
 }
 
 
-// ADD TO GALLERY
+
 function displayGallery() {
     var gallery = JSON.parse(localStorage.getItem('gallery')) || [];
     var galleryContainer = document.getElementById('galleryContainer');
@@ -147,8 +147,6 @@ function removeGraph(index) {
     localStorage.setItem('gallery', JSON.stringify(gallery)); // Update local storage
     displayGallery(); // Redisplay the gallery
 }
-
-
 
 
 // Call displayGallery if we're on the gallery page

@@ -5,8 +5,8 @@
     <title>DataEyes</title>
     <link rel="stylesheet" href="css/learn.css">
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="js/learn.js"></script>
-    <script src="js/graph.js"></script>
+    <script src="js/learn.js" defer></script>
+    <script src="js/graph.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,8 +19,12 @@
             <a id = "name" href="index.html">DataHere</a>
         </nav>
         <div class="intro">
-            <img src="assets/bar1.jpg" alt="Bar graph background">
-            <p id="intro-text">CHAP2 <br> BAR CHART</p>
+            <img id = "chart-img" src="" alt="Bar graph background">
+            <p id="intro-text">
+                <span id="chap-detail"></span>
+                <br>
+                <span id="chart-detail"></span>
+            </p>
         </div>
     </header>
     <main>
@@ -58,12 +62,12 @@
             <h1 class="section-header">Explore the variables</h1>
             <div class="variable-content">
                 <div>
-                    <button class="tag">company_location</button>
+                    <button class="tag">country_of_bean_origin</button>
                 </div>
                 <div>
                     <button class="tag">company_manufacturer</button>
                     <button class="tag">cocoa_percent</button>
-                    <button class="tag">country_of_bean_origin</button>
+                    <button class="tag">company_location</button>
                 </div>
                 <div>
                     <button class="tag">most_memorable_characteristics</button>
