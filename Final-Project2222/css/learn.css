@@ -130,8 +130,8 @@ nav ul li a {
 }
 @media screen and (max-width: 980px) {
     .chapter{
-        width:280px;
-        height: 400px;
+        width:200px;
+        height: 300px;
         background-color:#a6948623;
         align-items:center;
         margin:10%;
@@ -140,8 +140,8 @@ nav ul li a {
         box-shadow:5px 3px 5px #a3928660;
     }
     .learn-modules img{
-        width: 200px;
-        height: 200px;
+        max-width: 100px;
+        max-height: 100px;
         margin:5%;
     }
 }
