@@ -173,7 +173,7 @@ nav ul li a {
         height: auto;
     }
     .prompt-text{
-        font-size:20px;
+        font-size:35px;
     }
 }
 /* Section3: Variables*/
@@ -275,7 +275,7 @@ nav ul li a {
         font-size:35px;
     }
     #information {
-        font-size: 20px;
+        font-size: 35px;
     }
 }
 
@@ -297,6 +297,7 @@ nav ul li a {
     .quizCard{
         height: 400px;
     }
+    
 }
 
 .quizCard-inner{
@@ -370,6 +371,7 @@ nav ul li a {
         font-size:35px;
     }
 }
+
 .other-chap button:hover{
     background-color: #c4decb;
     border-color: rgb(170, 167, 167);

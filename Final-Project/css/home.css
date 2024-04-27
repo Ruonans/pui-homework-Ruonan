@@ -62,9 +62,18 @@ header img{
         top:10%;
         font-size: 50px;
     }
-    .section-header{
-        font-size:30px;
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
     }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+    
 }
 
 
@@ -104,6 +113,16 @@ nav ul li a {
 .current-page{
     font-weight:bold;
 }
+
+@media screen and (max-width: 980px) {
+    nav ul li {
+        font-size:35px;
+    }
+    #name{
+        font-size: 65px;
+    }
+}
+
 
 /* Section1 : Learn */
 .module{
@@ -203,6 +222,28 @@ nav ul li a {
 .author{
     font-size: 20px;
 }
+
+@media screen and (max-width: 980px) {
+    .daily-graph{
+        font-size: 40px;
+    }
+    .author{
+        font-size: 35px;
+    }
+    button{
+        background-color:#E2E5E2;
+        color: rgb(37, 27, 27);
+        width:300px;
+        padding:0% 2%;
+        height:60px;
+        border: 0px;
+        font-size: 30px;
+        font-family: Georgia;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+}
+
 .buttons{
     display: flex;
     flex-direction: row;
