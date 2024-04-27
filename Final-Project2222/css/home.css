@@ -263,10 +263,12 @@ button:hover{
 
 /* Footer */
 footer {
-    color: black;
+    color: rgb(68, 67, 67);
     text-align: center;
-    font-size:10px;
+    font-size:15px;
+    padding:2%;
 }
+
 
 
 

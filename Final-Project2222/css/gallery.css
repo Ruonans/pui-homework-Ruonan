@@ -213,6 +213,12 @@ footer {
     }
 }
 
+footer {
+    color: rgb(68, 67, 67);
+    text-align: center;
+    font-size:15px;
+    padding:2%;
+}
 
 
 
