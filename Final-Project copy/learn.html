@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataEyes</title>
+    <link rel="stylesheet" href="css/learn.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="js/learn.js" defer></script>
+    <script src="js/graph.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current-page" href="learn.html">Learn</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <a id = "name" href="index.html">DataHere</a>
+        </nav>
+        <div class="intro">
+            <img id = "chart-img" src="" alt="Bar graph background">
+            <p id="intro-text">
+                <span id="chap-detail"></span>
+                <br>
+                <span id="chart-detail"></span>
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="definition">
+            <h1 class="section-header">What is a BAR CHART?</h1>
+            <div class="def-content">
+                <div>
+                    <p>A bar chart is a graphical representation used to display and 
+                        compare <mark>categorical data</mark> through rectangular bars, where the 
+                        <span class="underline">length or height of each bar is proportional to the frequency 
+                            or value</span> of the corresponding category.</p>
+                </div>
+                <div class="def-note" >
+                    <p><span class="bold">Categorical data</span> is a collection of information that is divided 
+                        into groups but cannot be ordered or measured</p>
+                </div>
+            </div>
+        </section>
+    <div class="background">
+        <section class="prompt">
+            <h1 class="section-header">Prompt</h1>
+            <div class="prompt-content">
+                <div>
+                    <img src="assets/choco-bar3.jpg" alt="chocolate bar">
+                </div>
+                <div class="prompt-text">
+                    <p class="subtitle">Discover the secret recipe for 4-star chocolate! </p>
+                    <p>Sift through this delicious dataset and see if you can spot what sets the best chocolates apart. What's the magic cocoa percentage that wins hearts? Do more ingredients mean better taste, or is simplicity the key? 
+                    Compare, contrast, and uncover the patterns that reveal the essence of a top-rated chocolate bar. In this chapter, we'll explore the categorical variables of this chocolate rating dataset</p>
+                </div>
+            </div>
+        </section>
+    </div>
+        <section class="variable">
+            <h1 class="section-header">Explore the variables</h1>
+            <div class="variable-content">
+                <div>
+                    <button class="tag">country_of_bean_origin</button>
+                </div>
+                <div>
+                    <button class="tag">company_manufacturer</button>
+                    <button class="tag">cocoa_percent</button>
+                    <button class="tag">company_location</button>
+                </div>
+                <div>
+                    <button class="tag">most_memorable_characteristics</button>
+                    <button class="tag">ingredients</button>
+                </div>
+            </div>
+            <div id="hidden-def"></div>
+        </section>
+        <div class="background">
+        <section class="graph">
+            <h1 class="section-header">Explore the bar charts</h1>
+            <div class="graph-content">
+                <select id="var-select"></select>
+                <div id="chart"></div>
+            </div>
+            <div id="details"></div>
+            <div id="information"></div>
+        </section>
+    </div>
+        <section class="quiz">
+            <h1 class="section-header">Quiz Time</h1>
+            <div class="quizCards">
+                <div class="quizCard">
+                    <div class = "quizCard-inner">
+                        <div class="question">
+                            <p>Which kind of data a bar graph is used to display and compare?</p>
+                        </div>
+                        <div class="answer">
+                            <p>Categorical Data</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="quizCard">
+                    <div class = "quizCard-inner">
+                        <div class="question">
+                            <p>what is the length or height of each bar proportional to?</p>
+                        </div>
+                        <div class="answer">
+                            <p>The frequency or value of the corresponding category</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="quizCard">
+                    <div class = "quizCard-inner">
+                        <div class="question">
+                            <p>Which company manufacturer prodcuces the most 4-star chocolates? </p>
+                        </div>
+                        <div class="answer">
+                            <p>Soma</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="other-chap">
+            <button> << Previous Chapter </button>
+            <button>Next Chapter >> </button>
+        </section>
+    </main>
+    <footer>
+        <p> Data Visualization Learning Website</p>
+    </footer>
+</body>
+</html>

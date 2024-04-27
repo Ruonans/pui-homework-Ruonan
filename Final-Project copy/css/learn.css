@@ -1,0 +1,386 @@
+/* Basic style */
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight:lighter;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.background{
+    background-color:#F5F5F5;
+}
+
+section{
+    margin:5% 10%;
+    padding:2%;
+    padding-bottom:10%;
+}
+
+.section-header{
+    font-size:30px;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    font-weight:bold;
+}
+@media screen and (max-width: 980px) {
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+}
+/* Header */
+
+.intro{
+    position:relative;
+    text-align: center;
+    color: black;
+}
+#intro-text{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    font-size: 100px;
+    color: black;
+    text-align:left;
+}
+header img{
+    width:100%;
+    height: 800px;
+}
+.current-page{
+    font-weight:bold;
+}
+
+nav {
+    list-style-type: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size:20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+#name {
+    color: black;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size: 50px;
+    float:inline-end;
+    margin-right:5%;
+}
+@media screen and (max-width: 980px) {
+    #intro-text{
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+    nav ul li {
+        font-size:35px;
+    }
+    #name{
+        font-size: 65px;
+    }
+}
+
+/*section1: Definition*/
+
+.def-note{
+    background-color: #b4d0bc48;
+}
+.def-content{
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+}
+
+.def-content p,div{
+    display:block;
+    line-height: 1.5;
+}
+
+
+.underline{
+    text-decoration:underline;
+}
+
+.definition mark{
+    font-weight:bold;
+    background-color: #b4d0bc48;
+}
+.bold{
+    font-weight:bold;
+}
+  
+.def-content div{
+    margin-right:10px;
+    padding:30px;
+    border-radius: 10px;
+}
+
+
+/* section2: prompt */
+
+.prompt-content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.prompt img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.prompt-text{
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 980px) {
+    .prompt img{
+        max-width: 100%;
+        height: auto;
+    }
+    .prompt-text{
+        font-size:20px;
+    }
+}
+/* Section3: Variables*/
+
+.variable-content {
+    display: flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.variable-content div{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+
+.tag{
+    font-family: Georgia;
+    color:black;
+    margin-right:3%;
+    font-size: 25px;
+    background-color:#b4d0bc48;
+    padding:8px;
+    padding-left:15px;
+    padding-right:15px;
+    border:0ch;
+    border-radius: 10px;
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+@media screen and (max-width: 980px){
+    .tag{
+        font-size: 30px;
+        margin-right:1%;
+    }
+}
+
+#hidden-def {
+    position: absolute;
+    max-width: 400px;
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid rgb(193, 190, 190);
+    border-radius: 4px;
+    display: none;  /* Initially hidden */
+    z-index: 1000;
+    color: rgb(50, 48, 48);
+    font-size: 0.75em;
+    box-shadow: 0 1px 2px rgb(170, 167, 167);
+}
+.tag:hover {
+    background-color: #c4decb;
+    border-color: rgb(170, 167, 167);
+}
+
+/* Graph */
+.graph-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#var-select{
+    font-family: Georgia;
+    padding:5px;
+    font-size:25px;
+    margin-bottom: 20px;
+    border-color:#8aa190;
+    border-width:2px;
+    background-color:#F5F5F5;
+}
+
+#details {
+    font-size: 10px;
+    position: absolute;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none; /* Do not interfere with mouse events */
+    z-index: 10;
+    max-width: 400px;
+}
+
+#information {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:#b4d0bc48;
+    line-height: 1.5;
+    padding:20px;
+}
+
+@media screen and (max-width: 980px) {
+    #var-select{
+        font-size:35px;
+    }
+    #information {
+        font-size: 20px;
+    }
+}
+
+/* Section4: Quiz*/
+.quizCards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.quizCard{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-right:2%;
+}
+
+@media screen and (max-width: 980px) {
+    .quizCard{
+        height: 400px;
+    }
+}
+
+.quizCard-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+.quizCard-inner p{
+    padding : 10px;
+}
+.quizCard:hover .quizCard-inner {
+    transform: rotateY(180deg);
+}
+
+.question, .answer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+  
+.question{
+    background-color: #b4d0bc48;
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.answer{
+    background-color: #71907C;
+    color: white;
+    font-weight:bold;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+.option:hover{
+    font-weight: bold;
+}
+
+/* Section5: Other chapters*/
+.other-chap{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.other-chap button{
+    font-family: Georgia;
+    background-color:#b4d0bc48;
+    font-size: 20px;
+    border:0px;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 980px) {
+    .other-chap button{
+        font-size:35px;
+    }
+}
+.other-chap button:hover{
+    background-color: #c4decb;
+    border-color: rgb(170, 167, 167);
+}
+
+
+/* Footer */
+footer {
+    color: black;
+    text-align: center;
+    font-size:10px;
+}
+
+
