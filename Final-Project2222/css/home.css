@@ -73,7 +73,6 @@ header img{
     .section-header{
         font-size:45px;
     }
-    
 }
 
 
@@ -116,10 +115,10 @@ nav ul li a {
 
 @media screen and (max-width: 980px) {
     nav ul li {
-        font-size:35px;
+        font-size:25px;
     }
     #name{
-        font-size: 65px;
+        font-size: 55px;
     }
 }
 
