@@ -128,7 +128,23 @@ nav ul li a {
     height: 285px;
     margin:10%;
 }
-
+@media screen and (max-width: 980px) {
+    .chapter{
+        width:280px;
+        height: 400px;
+        background-color:#a6948623;
+        align-items:center;
+        margin:10%;
+        margin-top: 15%;
+        border-radius: 2%;
+        box-shadow:5px 3px 5px #a3928660;
+    }
+    .learn-modules img{
+        width: 200px;
+        height: 200px;
+        margin:5%;
+    }
+}
 .modules {
     display: flex;
     flex-direction: row;
