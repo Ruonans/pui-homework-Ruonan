@@ -214,6 +214,9 @@ footer {
     header img{
         height: 600px;
     }
+    footer {
+        font-size:10px;
+    }
 }
 
 footer {
