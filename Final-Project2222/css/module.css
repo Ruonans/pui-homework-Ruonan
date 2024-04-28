@@ -372,6 +372,7 @@ footer {
     }
     .other-chap button{
         font-size:35px;
+        text-decoration:none;
     }
     footer{
         font-size:10px;
