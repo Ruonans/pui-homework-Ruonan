@@ -1,0 +1,225 @@
+/* Basic style */
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight:lighter;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
+main {
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+section{
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 10%;
+}
+
+.section-header{
+    font-size:30px;
+    text-align: center;
+}
+
+
+
+
+/* Header */
+.welcome{
+    display:relative;
+    text-align: center;
+    color: black;
+}
+#welcome-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: 40px;
+}
+
+header img{
+    width:100%;
+    height: 800px;
+}
+
+
+/* Navigation bar */
+
+nav {
+    list-style-type: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size:20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#name {
+    color: black;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size: 50px;
+    float:inline-end;
+    margin-right:5%;
+}
+
+.current-page{
+    font-weight:bold;
+}
+
+
+/* Styles for the gallery item */
+.gallery-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the container */
+    margin-bottom: 10%;
+    align-items:center;
+}
+
+/* Styles for the image */
+.gallery-img {
+    width: 40%; /* Adjust the width as necessary */
+    height: auto;
+    margin-right: 10%;
+}
+
+/* Container for the text information */
+.gallery-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+
+/* Styles for the graph name, author, and link */
+.gallery-graph-name, .gallery-author, .gallery-detail-link {
+    display: block; /* Ensures each takes a full line */
+}
+
+.gallery-author{
+    font-size: 20px;
+}
+.gallery-graph-name{
+    font-weight:bold;
+}
+
+/* Additional link styles */
+.gallery-detail-link {
+    padding:1% 2%; /* Padding for better button appearance */
+    background-color: #E2E5E2;
+    color: rgb(37, 27, 27);
+    width:fit-content;
+    height:fit-content;
+    border: 0px;
+    font-size: 17px;
+    font-family: Georgia;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.gallery-detail-link:hover {
+    font-weight: bold;
+}
+
+
+/* Remove link styles, similar to Learn More link */
+.remove-detail-link {
+    padding: 1% 2%; /* Padding for better button appearance */
+    background-color: #E2E5E2; /* A red color to indicate removal */
+    color: rgb(37, 27, 27);
+    width: fit-content;
+    height: fit-content;
+    border: 0px;
+    font-size: 17px;
+    font-family: Georgia;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.remove-detail-link:hover {
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    #welcome-text{
+        left: 10%;
+        right:10%;
+        top:10%;
+        font-size: 50px;
+    }
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
+    }
+    .gallery-author{
+        font-size: 35px;
+    }
+    .gallery-detail-link {
+        font-size: 30px;
+    }
+    .remove-detail-link{
+        font-size: 30px;
+    }
+    header img{
+        height: 600px;
+    }
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
