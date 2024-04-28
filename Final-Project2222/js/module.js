@@ -138,3 +138,62 @@ targetChart.innerText = chartDetail;
 const chartImage = document.querySelector('#chart-img');
 chartImage.src = 'assets/' + chapDetail + '.jpg';
 
+
+
+function updateChapterNavigation() {
+    const currentChap = params.get('chap');
+    const chapterKeys = Object.keys(Chapters);
+    const currentChapIndex = chapterKeys.indexOf(currentChap);
+    const prevChapterBtn = document.getElementById('prevChapterBtn');
+    const nextChapterBtn = document.getElementById('nextChapterBtn');
+
+    if (currentChapIndex === 0) {
+        // First chapter, change 'Previous Chapter' to 'Back to Menu'
+        prevChapterBtn.textContent = 'Back to Menu';
+        prevChapterBtn.onclick = function() { window.location.href = 'learn.html'; };
+    } else {
+        prevChapterBtn.innerHTML= '&#8592 Previous Chapter';
+        prevChapterBtn.onclick = previousChapter;
+    }
+
+    if (currentChapIndex === chapterKeys.length - 1) {
+        // Last chapter, change 'Next Chapter' to 'Back to Menu'
+        nextChapterBtn.textContent = 'Back to Menu';
+        nextChapterBtn.onclick = function() { window.location.href = 'learn.html'; };
+    } else {
+        nextChapterBtn.innerHTML= 'Next Chapter &#8594';
+        nextChapterBtn.onclick = nextChapter;
+    }
+}
+
+function previousChapter() {
+    const currentChap = params.get('chap');
+    const chapterKeys = Object.keys(Chapters);
+    const currentChapIndex = chapterKeys.indexOf(currentChap);
+
+    if (currentChapIndex > 0) {
+        const prevChap = chapterKeys[currentChapIndex - 1];
+        navigateToChapter(prevChap);
+    }
+}
+
+function nextChapter() {
+    const currentChap = params.get('chap');
+    const chapterKeys = Object.keys(Chapters);
+    const currentChapIndex = chapterKeys.indexOf(currentChap);
+
+    if (currentChapIndex < chapterKeys.length - 1) {
+        const nextChap = chapterKeys[currentChapIndex + 1];
+        navigateToChapter(nextChap);
+    }
+}
+
+function navigateToChapter(chapter) {
+    params.set('chap', chapter);
+    const newUrl = window.location.pathname + "?" + params.toString();
+    window.location.href = newUrl;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    updateChapterNavigation();
+});
