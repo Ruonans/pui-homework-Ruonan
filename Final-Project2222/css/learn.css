@@ -170,5 +170,7 @@ footer {
         height: 200px;
         margin: 5%;
     }
-   
+    footer{
+        font-size:24px;
+    }
 }

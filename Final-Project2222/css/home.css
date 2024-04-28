@@ -224,7 +224,6 @@ footer {
     section{
         margin:2% 5%;
         padding:2%;
-        padding-bottom:5%;
     }
     body {
         font-size: 35px;
@@ -251,6 +250,9 @@ footer {
         height:60px;
         font-size: 30px;
         margin-right: 20px;
+    }
+    footer{
+        font-size:10px;
     }
 }
     

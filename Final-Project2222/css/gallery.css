@@ -31,6 +31,7 @@ section{
 
 .section-header{
     font-size:30px;
+    text-align: center;
 }
 
 
@@ -168,14 +169,11 @@ nav ul li a {
 }
 
 
-
-
-
 /* Footer */
 footer {
     color: black;
     text-align: center;
-    font-size:10px;
+    font-size:15px;
 }
 
 
@@ -215,16 +213,11 @@ footer {
         height: 600px;
     }
     footer {
-        font-size:10px;
+        font-size:24px;
     }
+    
 }
 
-footer {
-    color: rgb(68, 67, 67);
-    text-align: center;
-    font-size:15px;
-    padding:2%;
-}
 
 
 
