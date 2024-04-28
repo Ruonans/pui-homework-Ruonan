@@ -93,7 +93,7 @@ nav ul li a {
 /* SECTION 1 */
 .chapter{
     width:320px;
-    height: 450px;
+    height: 430px;
     background-color:#a6948623;
     align-items:center;
     margin:5%;
@@ -103,7 +103,7 @@ nav ul li a {
 }
 .learn-modules img{
     width: 285px;
-    height: 285px;
+    height: 250px;
     margin: 10%;
 }
 
@@ -157,16 +157,16 @@ footer {
         left: 5%;
     }
     .chapter{
-        width:200px;
-        height: 250px;
+        width:260px;
+        height: 215px;
         margin-right:5%;
         margin-top: 15%;
         border-radius: 2%;
         box-shadow:5px 3px 5px #a3928660;
     }
     .learn-modules img{
-        width: 150px;
-        height: 150px;
+        width: 143px;
+        height: 125px;
         margin: 5%;
     }
 }
