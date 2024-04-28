@@ -124,13 +124,7 @@ nav ul li a {
     background-color:#A39286;
 }
 
-/* Footer */
-#footer {
-    color: rgb(68, 67, 67);
-    text-align: center;
-    font-size:15px;
-    padding:2%;
-}
+
 
 @media screen and (max-width: 980px) {
 

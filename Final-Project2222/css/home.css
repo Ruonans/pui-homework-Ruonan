@@ -206,13 +206,6 @@ button:hover{
 }
 
 
-/* Footer */
-#footer {
-    color: rgb(68, 67, 67);
-    font-size:15px;
-    text-align: center;
-    padding:2%;
-}
 
 @media screen and (max-width: 980px) {
     #welcome-text{

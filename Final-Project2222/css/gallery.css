@@ -169,15 +169,6 @@ nav ul li a {
 }
 
 
-/* Footer */
-#footer {
-    color: black;
-    text-align: center;
-    font-size:15px;
-}
-
-
-
 
 @media screen and (max-width: 980px) {
     #welcome-text{
