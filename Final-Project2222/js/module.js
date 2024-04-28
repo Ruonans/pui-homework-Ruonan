@@ -1,7 +1,7 @@
 const Chapters= {
     "Chapter1": {
         chapNumber: "CHAP1",
-        chapName:"BAR CHART"
+        chapName:"BAR CHART",
     },
     "Chapter2": {
         chapNumber: "CHAP2",
@@ -126,7 +126,6 @@ console.log(chapDetail);
 const chartDetail = Chapters[chosenChap].chapName;
 
 
-
 const targetChap = document.querySelector("#chap-detail");
 console.log(targetChap);
 targetChap.textContent = chapDetail;
@@ -137,7 +136,6 @@ targetChart.innerText = chartDetail;
 // Update the image
 const chartImage = document.querySelector('#chart-img');
 chartImage.src = 'assets/' + chapDetail + '.jpg';
-
 
 
 function updateChapterNavigation() {

@@ -170,7 +170,7 @@ nav ul li a {
 
 
 /* Footer */
-footer {
+#footer {
     color: black;
     text-align: center;
     font-size:15px;
@@ -212,10 +212,6 @@ footer {
     header img{
         height: 600px;
     }
-    footer {
-        font-size:24px;
-    }
-    
 }
 
 
