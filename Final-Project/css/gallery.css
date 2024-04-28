@@ -31,28 +31,11 @@ section{
 
 .section-header{
     font-size:30px;
+    text-align: center;
 }
 
-@media screen and (max-width: 980px) {
-    section{
-        margin:2% 5%;
-        padding:2%;
-        padding-bottom:5%;
-    }
-    body {
-        font-size: 35px;
-    }
-    .section-header{
-        font-size:45px;
-    }
-  
-    nav ul li {
-        font-size:35px;
-    }
-    #name{
-        font-size: 65px;
-    }
-}
+
+
 
 /* Header */
 .welcome{
@@ -70,6 +53,7 @@ section{
 
 header img{
     width:100%;
+    height: 800px;
 }
 
 
@@ -115,7 +99,7 @@ nav ul li a {
 .gallery-item {
     display: flex;
     align-items: flex-start; /* Align items at the start of the container */
-    margin-bottom: 20px;
+    margin-bottom: 10%;
     align-items:center;
 }
 
@@ -158,6 +142,7 @@ nav ul li a {
     font-family: Georgia;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .gallery-detail-link:hover {
@@ -176,6 +161,7 @@ nav ul li a {
     font-size: 17px;
     font-family: Georgia;
     margin-right: 10px;
+    border-radius: 5px;
 }
 
 .remove-detail-link:hover {
@@ -184,26 +170,40 @@ nav ul li a {
 
 
 
-
-
-/* Footer */
-footer {
-    color: black;
-    text-align: center;
-    font-size:10px;
+@media screen and (max-width: 980px) {
+    #welcome-text{
+        left: 10%;
+        right:10%;
+        top:10%;
+        font-size: 50px;
+    }
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
+    }
+    .gallery-author{
+        font-size: 35px;
+    }
+    .gallery-detail-link {
+        font-size: 30px;
+    }
+    .remove-detail-link{
+        font-size: 30px;
+    }
+    header img{
+        height: 600px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
