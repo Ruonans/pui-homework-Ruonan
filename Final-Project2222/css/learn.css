@@ -98,7 +98,6 @@ nav ul li a {
     align-items:center;
     margin:5%;
     margin-top: 15%;
-    padding:2%;
     border-radius: 2%;
     box-shadow:5px 3px 5px #a3928660;
 }
@@ -157,9 +156,9 @@ footer {
         left: 5%;
     }
     .chapter{
-        width:260px;
+        width:160px;
         height: 215px;
-        margin-right:5%;
+        margin-right:10%;
         margin-top: 15%;
         border-radius: 2%;
         box-shadow:5px 3px 5px #a3928660;
@@ -167,7 +166,6 @@ footer {
     .learn-modules img{
         width: 143px;
         height: 125px;
-        margin-bottom: 5%;
-    
+        margin: 5%;
     }
 }
