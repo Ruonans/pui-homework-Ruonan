@@ -34,22 +34,7 @@ section{
     font-weight:bold;
 }
 
-@media screen and (max-width: 980px) {
-    section{
-        margin:2% 5%;
-        padding:2%;
-        padding-bottom:5%;
-    }
-    body {
-        font-size: 35px;
-    }
-    .section-header{
-        font-size:45px;
-    }
-    nav ul li {
-        font-size:27px;
-    }
-}
+
 /* Header */
 
 .intro{
@@ -102,13 +87,7 @@ nav ul li a {
     float:inline-end;
     margin-right:5%;
 }
-@media screen and (max-width: 980px) {
-    #intro-text{
-        position: absolute;
-        top: 1%;
-        left: 5%;
-    }
-}
+
 
 /*section1: Definition*/
 
@@ -164,15 +143,7 @@ nav ul li a {
     margin-left: 5%;
 }
 
-@media screen and (max-width: 980px) {
-    .prompt img{
-        max-width: 100%;
-        height: auto;
-    }
-    .prompt-text{
-        font-size:35px;
-    }
-}
+
 /* Section3: Variables*/
 
 .variable-content {
@@ -202,12 +173,6 @@ nav ul li a {
     transition: background-color 0.3s, border-color 0.3s; 
 }
 
-@media screen and (max-width: 980px){
-    .tag{
-        font-size: 30px;
-        margin-right:1%;
-    }
-}
 
 #hidden-def {
     position: absolute;
@@ -268,14 +233,6 @@ nav ul li a {
     padding:20px;
 }
 
-@media screen and (max-width: 980px) {
-    #var-select{
-        font-size:35px;
-    }
-    #information {
-        font-size: 35px;
-    }
-}
 
 /* Section4: Quiz*/
 .quizCards{
@@ -289,13 +246,6 @@ nav ul li a {
     height: 300px;
     perspective: 1000px;
     margin-right:2%;
-}
-
-@media screen and (max-width: 980px) {
-    .quizCard{
-        height: 400px;
-    }
-    
 }
 
 .quizCard-inner{
@@ -364,11 +314,6 @@ nav ul li a {
     border-radius: 4px;
 }
 
-@media screen and (max-width: 980px) {
-    .other-chap button{
-        font-size:35px;
-    }
-}
 
 .other-chap button:hover{
     background-color: #c4decb;
@@ -385,3 +330,48 @@ footer {
     padding:2%;
 }
 
+@media screen and (max-width: 980px) {
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
+    }
+    #intro-text{
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+    .prompt img{
+        max-width: 100%;
+        height: auto;
+    }
+    .prompt-text{
+        font-size:35px;
+    }
+    .tag{
+        font-size: 30px;
+        margin-right:1%;
+    }
+    #var-select{
+        font-size:35px;
+    }
+    #information {
+        font-size: 35px;
+    }
+    .quizCard{
+        height: 400px;
+    }
+    .other-chap button{
+        font-size:35px;
+    }
+    
+}

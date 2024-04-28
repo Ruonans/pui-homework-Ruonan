@@ -55,32 +55,6 @@ header img{
 }
 
 
-@media screen and (max-width: 980px) {
-    #welcome-text{
-        left: 10%;
-        right:10%;
-        top:20%;
-        font-size: 50px;
-    }
-    section{
-        margin:2% 5%;
-        padding:2%;
-        padding-bottom:5%;
-    }
-    body {
-        font-size: 35px;
-    }
-    .section-header{
-        font-size:45px;
-    }
-    nav ul li {
-        font-size:27px;
-    }
-    header img{
-        height: 600px;
-    }
-}
-
 
 /* Navigation bar */
 
@@ -175,13 +149,9 @@ nav ul li a {
     background:#FEFEFE;
 }
 
+
 @media (min-width: 500px) {
-    .chapter {
-      flex-basis: calc(50% - 10px);
-    }
-    .chapter:not(:last-child) {
-      margin-right: 20px;
-    }
+    
   }
   
 @media (min-width: 700px) {
@@ -243,7 +213,44 @@ button{
     border-radius: 5px;
 }
 
+
+button:hover{
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    color: rgb(68, 67, 67);
+    text-align: center;
+    font-size:15px;
+    padding:2%;
+}
+
 @media screen and (max-width: 980px) {
+    #welcome-text{
+        left: 10%;
+        right:10%;
+        top:20%;
+        font-size: 50px;
+    }
+    section{
+        margin:2% 5%;
+        padding:2%;
+        padding-bottom:5%;
+    }
+    body {
+        font-size: 35px;
+    }
+    .section-header{
+        font-size:45px;
+    }
+    nav ul li {
+        font-size:27px;
+    }
+    header img{
+        height: 600px;
+    }
     .daily-graph{
         font-size: 40px;
     }
@@ -258,19 +265,7 @@ button{
         margin-right: 20px;
     }
 }
-
-button:hover{
-    font-weight: bold;
-}
-
-
-/* Footer */
-footer {
-    color: rgb(68, 67, 67);
-    text-align: center;
-    font-size:15px;
-    padding:2%;
-}
+    
 
 
 
