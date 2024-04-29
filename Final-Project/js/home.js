@@ -103,10 +103,13 @@ if (localStorage.getItem('storedGraphs') != null) {
 } 
 
 //Check if some graph was already added into the gallery (avoid repetitions)
-function testExistence(name){
-    for (item of gallery) {
-        return (item.name === name);
+function testExistence(name) {
+    for (const item of gallery) {
+        if (item.name === name) {
+            return true;
+        }
     }
+    return false;
 }
 
 //Add a new graph to the gallery by clicking the add to gallery button
