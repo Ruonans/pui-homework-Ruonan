@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataEyes</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="current-page" href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <a id = "name" href="index.html">DataHere</a>
+        </nav>
+        <div class="welcome">
+            <img src="assets/start.jpg" alt="welcome slogan background">
+            <p id="welcome-text">Your data visualization journey starts Here.</p>
+        </div>
+    </header>
+    <main>
+        <section class="Learn">
+            <h1 class="section-header">Learn</h1>
+            <ul class="module">
+                <li class="chapter">
+                    <img src="assets/CHAP1.jpg" alt="chapter1 background" usemap="#chap1">
+                    <map name="chap1">
+                        <area shape="default" alt="chapter 1 details" href="module.html?chap=Chapter1">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter1">CHAP1 Bar Chart</a>
+                    <br>
+                </li>
+                <li class="chapter">
+                    <img src="assets/CHAP2.jpg" alt="chapter2 background" usemap="#chap2">
+                    <map name="chap2">
+                        <area shape="default" alt="chapter 2 details" href="module.html?chap=Chapter2">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter2">CHAP2 Histogram</a>
+                    <br>
+                </li>
+                <li class="chapter">
+                    <img src="assets/CHAP3.jpg" alt="chapter3 background" usemap="#chap3">
+                    <map name="chap3">
+                        <area shape="default" alt="chapter 3 details" href="module.html?chap=Chapter3">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter3">CHAP3 Line Chart</a>
+                    <br>
+                </li>
+                <li class="chapter">
+                    <img src="assets/CHAP4.jpg" alt="chapter4 background" usemap="#chap4">
+                    <map name="chap4">
+                        <area shape="default" alt="chapter 4 details" href="module.html?chap=Chapter4">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter4">CHAP4 Pie Chart</a>
+                    <br>
+                </li>
+                <li class="chapter">
+                    <img src="assets/CHAP5.jpg" alt="chapter5 background" usemap="#chap5">
+                    <map name="chap5">
+                        <area shape="default" alt="chapter 5 details" href="module.html?chap=Chapter5">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter5">CHAP5 Scatter Plot</a>
+                    <br>
+                </li>
+                <li class="chapter">
+                    <img src="assets/CHAP6.jpg" alt="chapter6 background" usemap="#chap6">
+                    <map name="chap6">
+                        <area shape="default" alt="chapter 6 details" href="module.html?chap=Chapter6">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter6">CHAP6 Heat Map</a>
+                    <br>
+                </li>
+            </ul>
+        </section>
+        <section class="daily">
+            <h1 class="section-header">Data Visualization Examples From History & Today</h1>
+            <div class="daily-graph">
+                <img id="dailyGraphImage" src="Daily/Daily-1.jpg" alt="Diagram of The Causes of Mortality in The Army in The East">
+                <p id="graphDescription">Diagram of The Causes of Mortality in The Army in The East</p>
+                <p class="author">Visualization by: Florence Nightingale</p>
+                <div class="buttons">
+                    <button>
+                        <a id="learnMoreLink" href="https://edspace.american.edu/visualwar/nightingale/">Learn more</a>
+                    </button>
+                    <button id="addToGalleryButton">Add to Gallery</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Gallery</title>
+    <link rel="stylesheet" href="css/copy.css">
+    <script src="js/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a class="current-page" href="gallery.html">Gallery</a></li>
+            </ul>
+            <a id = "name" href="index.html">DataHere</a>
+        </nav>
+        <div class="welcome">
+            <img src="assets/gallery1.jpg" alt="welcome slogan background">
+        </div>
+    </header>
+    <main>
+        <h1 class="section-header">Welcome to Graph Gallery</h1>
+        <div id="galleryContainer"></div>
+        <template id="my-graph">
+            <div class="graph1">
+                <img class="graph-image" src="" alt="graph image">
+                <div class="graph-details">
+                    <p class="gallery-graph-name"></p>
+                    <p class="gallery-author"></p>
+                    <button class="gallery-detail-link">Learn More</button>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </template>
+    </main>
+</body>
+</html>

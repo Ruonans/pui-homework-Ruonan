@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataEyes Home Page</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/local.js" defer></script>
+    <script src="js/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a class="current-page" href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <a id ="name" href="index.html">DataHere</a>
+        </nav>
+        <!-- The landing page background and the welcome text of this site -->
+        <div class="welcome">
+            <img src="assets/start.jpg" alt="welcome slogan background - A man is running up the hill">
+            <p id="welcome-text">Your data visualization journey starts Here.</p>
+        </div>
+    </header>
+    <main>
+        <section class="Learn">
+            <h1 class="section-header">Learn</h1>
+            <!-- An unordered list is for creating the function of horizontally swiping cards of learning modules -->
+            <ul class="module">
+                <!-- Each "chapter" is one learning module with an image and a text linking to the target module page -->
+                <!-- Chapter 1 bar chart -->
+                <li class="chapter">
+                    <img src="assets/CHAP1.jpg" alt="chapter1 bar chart background - A bar chart with a background of $100 bills" usemap="#chap1">
+                    <map name="chap1">
+                        <area shape="default" alt="the link to the learning material of chapter 1 bar chart" href="module.html?chap=Chapter1">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter1">CHAP1 Bar Chart</a>
+                    <br>
+                </li>
+                <!-- Chapter 2 histogram -->
+                <li class="chapter">
+                    <img src="assets/CHAP2.jpg" alt="chapter2 histogram background - 6 bins of rainbow color with blue sky" usemap="#chap2">
+                    <map name="chap2">
+                        <area shape="default" alt="the link to the learning material of chapter 2 histogram" href="module.html?chap=Chapter2">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter2">CHAP2 Histogram</a>
+                    <br>
+                </li>
+                <!-- chapter 3 line chart  -->
+                <li class="chapter">
+                    <img src="assets/CHAP3.jpg" alt="chapter3 line chart background - a green line chart with white background" usemap="#chap3">
+                    <map name="chap3">
+                        <area shape="default" alt="the link to the learning material of chapter 3 line chart" href="module.html?chap=Chapter3">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter3">CHAP3 Line Chart</a>
+                    <br>
+                </li>
+                <!-- chapter 4 pie chart -->
+                <li class="chapter">
+                    <img src="assets/CHAP4.jpg" alt="chapter4 pie chart background - a 3D pie chart with three sections" usemap="#chap4">
+                    <map name="chap4">
+                        <area shape="default" alt="the link to the learning material of chapter 4 pie chart" href="module.html?chap=Chapter4">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter4">CHAP4 Pie Chart</a>
+                    <br>
+                </li>
+                <!-- chapter5 scatter plot -->
+                <li class="chapter">
+                    <img src="assets/CHAP5.jpg" alt="chapter5 scatter plot background - a stream of media emojis looks like a scatter plot" usemap="#chap5">
+                    <map name="chap5">
+                        <area shape="default" alt="the link to the learning material of chapter 5 scatter plot" href="module.html?chap=Chapter5">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter5">CHAP5 Scatter Plot</a>
+                    <br>
+                </li>
+                <!-- chapter6 heat map -->
+                <li class="chapter">
+                    <img src="assets/CHAP6.jpg" alt="chapter6 heat map background - a macbook on the sofa showing several data visualizations" usemap="#chap6">
+                    <map name="chap6">
+                        <area shape="default" alt="the link to the learning material of chapter 6 heat map" href="module.html?chap=Chapter6">
+                    </map>
+                    <br>
+                    <a href="module.html?chap=Chapter6">CHAP6 Heat Map</a>
+                    <br>
+                </li>
+            </ul>
+        </section>
+        <!-- The section showing plot examples, which will be different each time accessing the landing page -->
+        <section class="daily">
+            <h1 class="section-header">Data Visualization Examples From History & Today</h1>
+            <!-- The example graph image, name, and author -->
+            <div class="daily-graph">
+                <img id="dailyGraphImage" src="Daily/Daily-1.jpg" alt="Rose Diagram of The Causes of Mortality in The Army in The East">
+                <p id="graphDescription">Diagram of The Causes of Mortality in The Army in The East</p>
+                <p class="author">Visualization by: Florence Nightingale</p>
+                <div class="buttons">
+                    <!-- button that link to the external sites that have detailed interpretation for the graph -->
+                    <button>
+                        <a id="learnMoreLink" href="https://edspace.american.edu/visualwar/nightingale/">Learn more</a>
+                    </button>
+                    <!-- button to add the example to the gallery for future review -->
+                    <button id="addToGalleryButton" onclick="addNewGraph()">Add to Gallery</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

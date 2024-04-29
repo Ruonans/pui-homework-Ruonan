@@ -1,0 +1,112 @@
+﻿ref,company_manufacturer,company_location,review_date,country_of_bean_origin,specific_bean_origin_or_bar_name,cocoa_percent,ingredients,most_memorable_characteristics,rating
+48,Bonnat,France,2006,Venezuela,"Maracaibo, El Rosario",75%,"3- B,S,C",creamy,4
+56,Felchlin,Switzerland,2006,Bolivia,"Alto Beni, Cru Savage",68%,"5- B,S,C,V,L",complex,4
+81,Bonnat,France,2006,Venezuela,Chuao,75%,"3- B,S,C",creamy,4
+81,Pierre Marcolini,Belgium,2006,Mexico,"Porcelana, Tabasco,  Limited Ed.",72%,"5- B,S,C,V,L",mild ,4
+111,Domori,Italy,2007,Venezuela,Porcelana,70%,"2- B,S",creamy,4
+111,Pierre Marcolini,Belgium,2007,Blend,"Cabosse, Venezuela, Java",70%,"5- B,S,C,V,L",rich cocoa,4
+129,Valrhona,France,2007,Madagascar,Manjari,64%,"5- B,S,C,V,L",creamy,4
+141,Pierre Marcolini,Belgium,2007,Madagascar,"Sambirano, Ambanja, Madagascar",72%,"5- B,S,C,V,L",tangy,4
+162,Pralus,France,2007,Sao Tome,Claudio Corallo w/ nibs,75%,"4- B,S,C,L",large nibs,4
+192,Domori,Italy,2007,Ecuador,Ecuador,70%,"2- B,S",creamy,4
+192,Domori,Italy,2007,Venezuela,"Ocumare 67, Puertofino",70%,"2- B,S",creamy,4
+196,Patric,U.S.A.,2007,Madagascar,Madagascar,70%,"3- B,S,C",mild,4
+199,Bonnat,France,2008,Venezuela,"Porcelana, Venezuela",75%,"3- B,S,C",creamy,4
+284,Madecasse (Cinagra),Madagascar,2008,Madagascar,Madagascar,63%,"5- B,S,C,V,L",intense,4
+331,Patric,U.S.A.,2009,Madagascar,Madagascar,75%,"3- B,S,C",berry,4
+336,Cacao Sampaka,Spain,2009,Mexico,"Porcelana, Tabasco,  La Joya",70%,"4- B,S,C,L",distinct ,4
+336,Scharffen Berger,U.S.A.,2009,Ghana,Asante,65%,"5- B,S,C,V,L",simple,4
+346,Cacao Sampaka,Spain,2009,Mexico,"Xoconusco, Chiapas, cacao Real",70%,"4- B,S,C,L",creamy,4
+470,Amano,U.S.A.,2010,Ecuador,Guayas,70%,"4- B,S,C,V",strong spice,4
+523,Cacao Sampaka,Spain,2010,Papua New Guinea,Papua,71%,"4- B,S,C,L",creamy,4
+572,AMMA,Brazil,2010,Brazil,"Monte Alegre, 3 diff. plantations",60%,"4- B,S,C,L",creamy,4
+629,Bonnat,France,2011,Haiti,Haiti,75%,"3- B,S,C",grassy,4
+629,Bonnat,France,2011,Madagascar,"Madagascar, 100% criollo",75%,"3- B,S,C",oily,4
+636,Beschle (Felchlin),Switzerland,2011,Ecuador,Ecuador,72%,"3- B,S,C",creamy,4
+676,Soma,Canada,2011,Blend,"Three Amigos(Chuao, Wild Bolivia, D.R.)",70%,"3- B,S,C",berry,4
+676,Soma,Canada,2011,Peru,Peruvian,64%,"3- B,S,C",complex,4
+725,Amano,U.S.A.,2011,Papua New Guinea,Morobe,70%,"4- B,S,C,V",tart,4
+729,Artisan du Chocolat,U.K.,2011,Haiti,Haiti,72%,"3- B,S,C",nutty,4
+733,Idilio (Felchlin),Switzerland,2011,Venezuela,"Porcelana, Zulia",74%,"3- B,S,C",creamy,4
+737,Idilio (Felchlin),Switzerland,2011,Venezuela,"Carenero Superior, Urrutia, Barlovento",70%,"3- B,S,C",creamy,4
+737,Idilio (Felchlin),Switzerland,2011,Venezuela,"Sur del Lago, Amiari Meridena, Zulia, w/ nibs",72%,"3- B,S,C",creamy,4
+737,Idilio (Felchlin),Switzerland,2011,Venezuela,Coopertiva Amazona w/ nibs,72%,"3- B,S,C",peanut,4
+741,Woodblock,U.S.A.,2011,Venezuela,Ocumare,70%,"2- B,S",nutty,4
+745,Fresco,U.S.A.,2011,Venezuela,"Chuao, #217, DR, MC, batch 11-021",70%,"3- B,S,C",tart,4
+757,Valrhona,France,2011,Venezuela,"Porcelana, Pedegral",64%,"5- B,S,C,V,L",creamy,4
+757,Benoit Nihant,Belgium,2011,Indonesia,"Bali, Sukrama Bros. Farm, Melaya, 62hr C",72%,"3- B,S,C",smokey,4
+863,Pacari,Ecuador,2012,Peru,Piura,70%,"4- B,S,C,L",light color,4
+867,Soma,Canada,2012,Blend,"Dual Origins, Sambirano, Elvesia, batch SD06",70%,"3- B,S,C",creamy,4
+867,Soma,Canada,2012,Blend,"Dancing in Your Head, 5 bean blend",70%,"3- B,S,C",creamy,4
+891,Ritual,U.S.A.,2012,Madagascar,"Sambirano, 2011 harvest, batch 1",75%,"2- B,S",berry,4
+891,L.A. Burdick (Felchlin),U.S.A.,2012,Brazil,Brazil,70%,"5- B,S,C,V,L",creamy,4
+915,Fresco,U.S.A.,2012,Madagascar,"Sambirano Valley, #216, MR, LC",74%,"3- B,S,C",caramel,4
+927,Fresco,U.S.A.,2012,Papua New Guinea,"Markham Valley, #220, MR, MC",69%,"2- B,S",tart,4
+931,Valrhona,France,2012,Venezuela,"Otucan, Grand Cru",69%,"5- B,S,C,V,L",green,4
+959,Scharffen Berger,U.S.A.,2012,Peru,San Juan de Cheni,78%,"4- B,S,C,L",banana,4
+987,Danta,Guatemala,2012,Guatemala,Las Acacias E.,70%,"2- B,S",sweet ,4
+1015,A. Morin,France,2013,Venezuela,Chuao,70%,"4- B,S,C,L",oily,4
+1019,A. Morin,France,2013,Peru,Chanchamayo Province,63%,"3- B,S,C",sweet,4
+1030,Hotel Chocolat,U.K.,2013,St. Lucia,"Marcial, single Cote, 2012",70%,"2- B,S",cardamon,4
+1034,Patric,U.S.A.,2013,Peru,"Piura, Choc. Garage Exclusive",67%,"3- B,S,C",creamy,4
+1077,Soma,Canada,2013,Blend,"Crazy 88, Guat., D.R., Peru, Mad., PNG",88%,"3- B,S,C",berry,4
+1077,Soma,Canada,2013,Venezuela,"Maracaibo, El Vigia",70%,"3- B,S,C",delicate,4
+1081,Soma,Canada,2013,Blend,"Equator, Peru, Dom. Rep",67%,"3- B,S,C",nutty,4
+1081,Rogue,U.S.A.,2013,Bolivia,"Silvestre, Batch 7, 2013",75%,"2- B,S",smooth,4
+1141,Benoit Nihant,Belgium,2013,Ecuador,Rio Peripa H.,73%,"3- B,S,C",cinamon,4
+1149,Fresco,U.S.A.,2013,Peru,"Bellavista Coop, #225, LR, MC, CG Exclusive",70%,"3- B,S,C",chocolate,4
+1177,Matale,Australia,2013,Papua New Guinea,"Kulili P., 2013",74%,"3- B,S,C",creamy,4
+1177,Soma,Canada,2013,Jamaica,"Bachelor's Hall E., St. Thomas Parish, batch bh1",70%,"3- B,S,C",floral,4
+1177,Matale,Australia,2013,Madagascar,"Somia, 2013",68%,"3- B,S,C",sticky,4
+1295,Bar Au Chocolat,U.S.A.,2014,Peru,Maranon Canyon,70%,"2- B,S",creamy,4
+1319,A. Morin,France,2014,Peru,Pablino,70%,"4- B,S,C,L",delicate,4
+1339,Bonnat,France,2014,Brazil,Kaori,75%,"3- B,S,C",creamy,4
+1355,Brasstown aka It's Chocolate,U.S.A.,2014,Venezuela,Chuao,70%,"3- B,S,C",intense,4
+1375,Fresh Coast aka Just Good Choc.,U.S.A.,2014,Peru,Peru,70%,"2- B,S",banana,4
+1415,Pacari,Ecuador,2014,Ecuador,Tangara,70%,"4- B,S,C,L",creamy,4
+1510,Valrhona,France,2015,Peru,"Piura, Illanka, Quemazon",63%,"5- B,S,C,V,L",intense,4
+1558,Ocelot,Scotland,2015,Peru,Piura,75%,"3- B,S,C",light color,4
+1594,Soma,Canada,2015,Venezuela,Porcelana,75%,"3- B,S,C",balanced,4
+1598,Arete,U.S.A.,2015,Nicaragua,Chuno,70%,"2- B,S",creamy,4
+1622,"Smooth Chocolator, The",Australia,2015,Ecuador,Camino Verde,72%,"3- B,S,C",creamy,4
+1630,Durci,U.S.A.,2015,Ecuador,Corona Arriba,70%,"3- B,S,C",berry,4
+1642,Georgia Ramon,Germany,2015,Ghana,ABOCFA Coop,70%,"4- B,S,C,L",rich cocoa,4
+1662,Duffy's,U.K.,2015,Guatemala,"Rio Dulce, Xoco",70%,"4- B,S,C,L",intense,4
+1724,Castronovo,U.S.A.,2016,Belize,"Maya Mtn, Batch 454, Heirloom",72%,"3- B,S,C",bright ,4
+1740,"Smooth Chocolator, The",Australia,2016,Ecuador,"Porcelana, Sorotaima,Machiques,batch pcl001",70%,"3- B,S,C",light color,4
+1744,Heirloom Cacao Preservation (Zokoko),U.S.A.,2016,Bolivia,"Wild Beni, Lower Rio Beni, Tranquilidad, 2015",72%,"3- B,S,C",berry,4
+1780,Fruition,U.S.A.,2016,Costa Rica,"Coto Brus, Heirloom, Batch 1",74%,"2- B,S",oily,4
+1828,Soma,Canada,2016,Vietnam,"Tien Giang, Black S., batch VIT60420.0",70%,"3- B,S,C",creamy,4
+1848,Pacari,Ecuador,2016,Colombia,"Sierra Nevada, Tutu Iku",70%,"4- B,S,C,L",complex,4
+1848,Willie's Cacao,U.K.,2016,Colombia,Los Llanos,70%,"3- B,S,C",rich cocoa,4
+1908,Arete,U.S.A.,2016,Costa Rica,"Coto Brus, Terciopelo",70%,"2- B,S",balanced,4
+1924,Arete,U.S.A.,2016,Peru,Phantom,70%,"2- B,S",creamy,4
+1984,Letterpress,U.S.A.,2017,Peru,Ucayali,70%,"3- B,S,C",mild,4
+2016,Soma,Canada,2017,Colombia,Arauca,70%,"3- B,S,C",creamy,4
+2016,Dick Taylor,U.S.A.,2017,Solomon Islands,"Solomon Is.,batch 17158, N.Vela",72%,"2- B,S",well defined,4
+2024,Arete,U.S.A.,2017,Bolivia,Beniano,70%,"2- B,S",creamy,4
+2028,Arete,U.S.A.,2017,Haiti,Pisa,70%,"2- B,S",long lasting,4
+2040,Domori,Italy,2018,Tanzania,Tanzania,70%,"2- B,S",creamy,4
+2040,Durci,U.S.A.,2018,Peru,Piura Blanco,70%,"3- B,S,C",smooth,4
+2076,Potomac,U.S.A.,2018,Colombia,Tumaco,70%,"2- B,S",marshmallow,4
+2096,Brasstown,U.S.A.,2018,Bolivia,"Wild Bolivia, Sucre",70%,"3- B,S,C",nutty,4
+2126,Friis Holm,Denmark,2018,Guatemala,Indio Rojo,70%,"3- B,S,C",honey,4
+2130,Friis Holm,Denmark,2018,Nicaragua,"Rugoso, Bad Fermentation",70%,"3- B,S,C",banana,4
+2242,Soma,Canada,2018,Madagascar,"Bejofo, Sambirano V., Akesson E.",70%,"3- B,S,C",creamy,4
+2242,Soma,Canada,2018,Venezuela,"Choroni, Aragua, Finca Torres Farm",70%,"3- B,S,C",nutty,4
+2246,Bonnat,France,2018,Peru,Madre de Dios,75%,"3- B,S,C",oily,4
+2250,Bonnat,France,2018,Blend,"El Rosario, Xoconuzco, Cusco, Sambirano",75%,"3- B,S,C",creamy,4
+2254,Arete,U.S.A.,2018,Colombia,Tumaco,70%,"2- B,S",smooth,4
+2270,Dick Taylor,U.S.A.,2019,Belize,"Maya Mtn, Toledo",72%,"2- B,S",creamy,4
+2310,Christopher Elbow,U.S.A.,2019,Brazil,"Fazenda Camboa, 2017 harvest",70%,"3- B,S,C",creamy,4
+2326,Taste Artisan,U.S.A.,2019,Peru,Piura,75%,"3- B,S,C",fig,4
+2506,Qantu,Canada,2020,Peru,"Piura, Gran Blanco, lot 400",70%,"3- B,S,C",berry,4
+2514,Chokola,U.S.A.,2020,Madagascar,"Bejofo, 2019 H., Batch 20",67%,"2- B,S",berry,4
+2546,Dandelion,U.S.A.,2021,Brazil,"Vale Potumuju, 2019 h., batch 1",70%,"2- B,S",distinct,4
+2554,Castronovo,U.S.A.,2021,Peru,"Valle de Los Rios, batch 990",70%,"3- B,S,C",complex,4
+2610,Cacaosuyo,Peru,2021,Peru,Piura Select,70%,"2- B,S",chocolate,4
+2644,Fresco,U.S.A.,2021,Venezuela,"Chuao Village, BR-SC, batch 21-437",68%,"3- B,S,C",rich cocoa,4
+2648,A. Morin,France,2021,Mexico,La Joya,70%,"4- B,S,C,L",light color,4
+2656,Dick Taylor,U.S.A.,2021,Mexico,"Soconusco, Rayen Cacao Co-op, batch 21154",72%,"2- B,S",dried fruit,4
+2688,Castronovo,U.S.A.,2021,Venezuela,"Chuao, batch 1089",72%,"3- B,S,C",mild,4
+2700,Soma,Canada,2021,Vietnam,"Ben Tre, batch BEN210924 8983",70%,"3- B,S,C",cinamon,4
