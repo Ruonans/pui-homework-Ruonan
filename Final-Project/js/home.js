@@ -1,31 +1,31 @@
 // Graphs objects for the Daily section of history an today examples
 const Graphs = {
     "Diagram of The Causes of Mortality in The Army in The East": {
-        imgSrc: "Daily/Daily-1.jpg",
+        imgSrc: "assets/Daily/Daily-1.jpg",
         altText: "A Rose Diagram of The Causes of Mortality in The Army in The East",
         detailLink: "https://edspace.american.edu/visualwar/nightingale/",
         author: "Florence Nightingale"
     },
     "Flow Map of Napoleon's Invasion of Russia": {
-        imgSrc: "Daily/Daily-2.jpg",
+        imgSrc: "assets/Daily/Daily-2.jpg",
         altText: "A Flow Map of Napoleon's Invasion of Russia",
         detailLink: "https://ageofrevolution.org/200-object/flow-map-of-napoleons-invasion-of-russia/",
         author: "Charles Joseph Minard"
     },
     "1854 Broad Street Cholera Outbreak Map": {
-        imgSrc: "Daily/Daily-3.jpg",
+        imgSrc: "assets/Daily/Daily-3.jpg",
         altText: "1854 Broad Street Cholera Outbreak Map",
         detailLink: "https://education.nationalgeographic.org/resource/mapping-a-london-epidemic/",
         author: "John Snow"
     },
     "A New Chart of History": {
-        imgSrc: "Daily/Daily-4.jpg",
+        imgSrc: "assets/Daily/Daily-4.jpg",
         altText: "A New Chart of History",
         detailLink: "https://en.wikipedia.org/wiki/A_New_Chart_of_History",
         author: "Joseph Priestley"
     },
     "Interactive Government Budget": {
-        imgSrc: "Daily/Daily-5.jpg",
+        imgSrc: "assets/Daily/Daily-5.jpg",
         altText: "An Interactive chart of Government Budget",
         detailLink: "https://obamawhitehouse.archives.gov/interactive-budget",
         author: "US Office of Management and Budget (2016)"
