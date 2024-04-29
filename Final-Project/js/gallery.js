@@ -4,7 +4,7 @@ const gallery = []
 if (localStorage.getItem('storedGraphs') != null) {
     retrieveFromLocalStorage();
 }
-
+console.log(gallery);
 //add all objects in the gallery to the gallery page
 for (const graph of gallery) {
     addToGallery(graph);

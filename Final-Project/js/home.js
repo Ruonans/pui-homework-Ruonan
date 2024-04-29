@@ -120,6 +120,7 @@ function addNewGraph(){
         saveToLocalStorage();
         alert("Successfully added to the gallery!");
     }
+    console.log(gallery);
 }
 
 

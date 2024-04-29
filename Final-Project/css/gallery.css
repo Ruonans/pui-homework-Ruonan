@@ -109,7 +109,7 @@ nav ul li a {
     font-size: 30px;
 }
 
-.gallery-info button{
+.gallery-info button, .gallery-detail-link{
     padding:1% 2%; 
     background-color: #E2E5E2;
     color: rgb(37, 27, 27);
@@ -121,6 +121,7 @@ nav ul li a {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
 
 .gallery-info button:hover {
     font-weight: bold;
