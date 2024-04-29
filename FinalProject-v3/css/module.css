@@ -299,6 +299,7 @@ nav ul li a {
 
 /* Section6: Other chapters*/
 .other-chap{
+    margin: 5%;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
