@@ -185,6 +185,22 @@ button{
     border-radius: 5px;
 }
 
+#learnMoreLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#E2E5E2;
+    color: rgb(37, 27, 27);
+    width:120px;
+    padding:0% 2%;
+    height:40px;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+
+}
+
 button:hover{
     font-weight:bold;
 }
