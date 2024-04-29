@@ -239,7 +239,7 @@ button:hover{
     }
 
     .module::-webkit-scrollbar {
-        height: 20px;
+        height: 30px;
     }
 
     .daily-graph{
@@ -251,7 +251,7 @@ button:hover{
         margin-bottom:10%;
     }
 
-    button{
+    button, #learnMoreLink{
         width:300px;
         padding:0% 1%;
         height:60px;

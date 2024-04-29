@@ -153,7 +153,7 @@ nav ul li a {
         font-size: 35px;
     }
 
-    .gallery-info button{
+    .gallery-info button, .gallery-detail-link{
         font-size: 30px;
     }
 
