@@ -67,6 +67,10 @@ nav ul li a {
     margin-right: 5%;
 }
 
+#name:hover{
+    font-weight: lighter;
+}
+
 .current-page{
     font-weight: bold;
 }
